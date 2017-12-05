@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/ie10-viewport-bug-workaround.js"],"names":["navigator","userAgent","match","msViewportStyle","document","createElement","appendChild","createTextNode","querySelector"],"mappings":";;;AAIA,GAAIA,UAAUC,UAAUC,MAAM,mBAAoB,CAChD,IAAIC,gBAAkBC,SAASC,cAAc,SAC7CF,gBAAgBG,YACdF,SAASG,eACP,wCAGJH,SAASI,cAAc,QAAQF,YAAYH"}

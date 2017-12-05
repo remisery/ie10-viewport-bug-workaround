@@ -1,0 +1,31 @@
+{
+  "name": "ie10-viewport-bug-workaround",
+  "version": "0.1.1",
+  "description": "ie10-viewport-bug-workaround",
+  "scripts": {
+    "build": "npm run build:js && npm run build:css",
+    "build:js": "uglifyjs --compress --source-map --mangle --comments /^!/ --output dist/ie10-viewport-bug-workaround.js src/ie10-viewport-bug-workaround.js",
+    "build:css": "cleancss --compatibility --source-map --output dist/ie10-viewport-bug-workaround.css src/ie10-viewport-bug-workaround.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remisery/ie10-viewport-bug-workaround.git"
+  },
+  "author": "remisery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remisery/ie10-viewport-bug-workaround/issues"
+  },
+  "homepage": "https://github.com/remisery/ie10-viewport-bug-workaround#readme",
+  "devDependencies": {
+    "clean-css-cli": "4.1.10",
+    "uglify-js": "3.2.1"
+  },
+  "dependencies": {},
+  "keywords": [
+    "ie10",
+    "viewport",
+    "bug",
+    "workaround"
+  ]
+}
