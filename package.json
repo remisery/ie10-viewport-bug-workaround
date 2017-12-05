@@ -1,6 +1,6 @@
 {
   "name": "ie10-viewport-bug-workaround",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "ie10-viewport-bug-workaround",
   "scripts": {
     "build": "npm run build:js && npm run build:css",
